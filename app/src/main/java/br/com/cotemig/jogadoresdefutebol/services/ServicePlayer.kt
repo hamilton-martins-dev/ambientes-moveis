@@ -7,6 +7,6 @@ import retrofit2.http.GET
 
 interface ServicePlayer {
 
-    @GET("amigos")
+    @GET("jogador")
     fun getPlayers(): Call<PlayerList>
 }
